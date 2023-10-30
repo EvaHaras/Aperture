@@ -3,50 +3,212 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container{
-    max-width: 1440px;
-    margin: auto;
-    text-align: center;
-}
-
-.d-flex{
-    display: flex;
-    justify-content: space-between;
-}
 header{
     background-color: #181818;
-    padding: 20px 20px 20px 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
-.logo{
-    padding-top: 20px;
-    max-width: 128px;
+.container{
+    max-width: 1168px;
+    margin: auto;
 }
-nav .d-flex li{
-    padding: 15px 20px;
+header .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 32px;
+padding-right: 20px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
     list-style: none;
 }
-.navigation {
+header nav li{
+    margin-right: 32px;
+}
+header nav li:first-of-type{
+    margin-right: 24px;
+}
+header nav li:last-of-type{
+    margin-right: 31px;
+}
+header nav li a{
     color: #ffffff;
     font-size: 15px;
+    font-style: normal;
     font-family: Poppins;
     font-weight: 400;
     line-height: 20px;
     word-wrap: break-word;
     text-decoration: none;
 }
-.template{
+header nav li:first-of-type a{
+    font-size: 13px;
+}
+header nav li:last-of-type a{
     border-radius: 14px;
     background-color: #ffffff;
-}
-.template a{
-    padding: 9px 20px 13px 20px;
-    text-decoration: none;
     color: #000000;
-font-size: 16px;
-font-family: Poppins;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0.40px;
-word-wrap: break-word
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    padding: 11px 20px;
 }
+.main_banner{
+    background-image: url('../img/main_bg.jpg');
+    background-size: cover;
+    height: calc(100vh - 83px) ;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 71px;
+}
+.main_banner .container{
+    max-width: 580px;
+    margin: inherit;
+}
+.main_banner h3{
+    color: #C0C0C0;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-bottom: 1px;
+}
+.main_banner h1{
+    margin-bottom: 18px;
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 54px;
+font-style: normal;
+font-weight: 400;
+line-height: 59.4px; /* 110% */
+}
+.main_banner p {
+    max-width: 580px;
+    color: #C0C0C0;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */}
+.main_banner_2{
+    background-image: url('../img/main_bg2.jpg');
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 62px;
+}
+.main_banner_2 h2{
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.main_banner_2 p{
+    max-width: 298px;
+    color: #C0C0C0;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+.main_banner_3{
+    background-image: url('../img/main_bg3.jpg');
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 62px;
+}
+.main_banner_3 h2{
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.main_banner_3 p{
+    max-width: 273px;
+    color: #C0C0C0;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+.main_banner_4{
+    background-color: #000000;
+    padding: 113px 120px 100px 120px;
+}
+.main_banner_4 h2{
+    padding-top: 113px;
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px; /* 105% */
+}
+.main_banner_4 p {
+    padding-top: 15px;
+    color: #C0C0C0;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 125% */
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_banner_5{
+    background-image: url('../img/main_bg4.jpg');
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 46px;
+}
+.main_banner_5 h2{
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.main_banner_5 p{
+    max-width: 241px;
+    color: #C0C0C0;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+
+
+
 
