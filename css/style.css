@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../poppins-regular-webfont.woff') format('woff'),
+         url('../poppins-regular-webfont.ttf') format('truetype'),
+         url('../poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     padding: 0;
     margin: 0;
@@ -37,7 +48,7 @@ header nav li a{
     color: #ffffff;
     font-size: 15px;
     font-style: normal;
-    font-family: Poppins;
+    font-family: 'poppinsregular';
     font-weight: 400;
     line-height: 20px;
     word-wrap: break-word;
@@ -62,6 +73,7 @@ header nav li:last-of-type a{
     align-items: end;
     justify-content: center;
     padding-bottom: 71px;
+    position: relative;
 }
 .main_banner .container{
     max-width: 580px;
@@ -70,7 +82,7 @@ header nav li:last-of-type a{
 .main_banner h3{
     color: #C0C0C0;
 text-align: center;
-font-family: Poppins;
+font-family: 'poppinsregular';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -84,7 +96,7 @@ margin-bottom: 1px;
     background-size: cover;
     color: #FFF;
 text-align: center;
-font-family: Poppins;
+font-family: 'poppinsregular';
 font-size: 54px;
 font-style: normal;
 font-weight: 400;
@@ -93,7 +105,7 @@ line-height: 59.4px; /* 110% */
 .main_banner p {
     color: #C0C0C0;
 text-align: center;
-font-family: Poppins;
+font-family: 'poppinsregular';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -113,7 +125,7 @@ line-height: 20px; /* 142.857% */}
 }
 .main_banner_2 h2{
     color: #FFF;
-font-family: Poppins;
+    font-family: 'poppinsregular';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -123,7 +135,7 @@ text-transform: uppercase;
 }
 .main_banner_2 p{
     color: #C0C0C0;
-font-family: Poppins;
+    font-family: 'poppinsregular';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -144,7 +156,7 @@ line-height: 20px; /* 142.857% */
 }
 .main_banner_3 h2{
     color: #FFF;
-font-family: Poppins;
+    font-family: 'poppinsregular';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -154,7 +166,7 @@ text-transform: uppercase;
 }
 .main_banner_3 p{
     color: #C0C0C0;
-font-family: Poppins;
+    font-family: 'poppinsregular';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -173,7 +185,7 @@ line-height: 20px; /* 142.857% */
     padding-top: 113px;
     color: #FFF;
 text-align: center;
-font-family: Poppins;
+font-family: 'poppinsregular';
 font-size: 40px;
 font-style: normal;
 font-weight: 400;
@@ -184,7 +196,7 @@ line-height: 42px; /* 105% */
     padding-bottom: 40px;
     color: #C0C0C0;
 text-align: center;
-font-family: Poppins;
+font-family: 'poppinsregular';
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -210,7 +222,7 @@ line-height: 30px; /* 125% */
 }
 .main_banner_5 h2{
     color: #FFF;
-font-family: Poppins;
+    font-family: 'poppinsregular';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -220,13 +232,50 @@ text-transform: uppercase;
 }
 .main_banner_5 p{
     color: #C0C0C0;
-font-family: Poppins;
+    font-family: 'poppinsregular';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 142.857% */
 }
-
+.icons{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+}
+.icons li{
+    margin-left: 16px;
+    color: #FFF;
+ffont-family: 'poppinsregular';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 100% */
+list-style: none;
+}
+.icons li:before{
+    display: inline-block;
+    content: "";
+    background-image: url('../img/icons_1.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-bottom: -6px;
+}
+.icons li:nth-child(2):before{
+    background-image: url('../img/icons_2.svg');
+}
+.icons li:nth-child(3):before{
+    background-image: url('../img/icons_3.svg');
+    width: 32px;
+    margin-right: 7px;
+}
+.icons li:last-of-type:before{
+    background-image: url('../img/icons_4.svg');
+    width: 10px;
+    margin-right: 5px;
+}
 
 
 
