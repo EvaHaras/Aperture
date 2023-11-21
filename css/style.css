@@ -207,6 +207,11 @@ line-height: 30px; /* 125% */
     justify-content: space-between;
     align-items: center;
 }
+.clients a{
+    max-width: 128px;
+    display: inline-block;
+
+}
 .main_banner_5{
     background-image: url('../img/main_bg4.jpg');
     background-size: cover;
@@ -459,6 +464,12 @@ padding: 5px 4px;}
     border-radius:99px ;
     display: inline-flex;
 }
-
+.clients .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.clients.owl-carousel .owl-item{
+    text-align: center;
+}
 
    
